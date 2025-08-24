@@ -1,7 +1,6 @@
 # Events Management API
 
-A production-ready RESTful API built with **Laravel 12** for managing users, events, and attendees.  
-It supports flexible data loading, secure authentication, authorization, scheduled jobs, and email notifications.
+A production-ready RESTful API for creating and managing events and attendees, with token-based auth (Sanctum), fine-grained authorization (Policies & Gates), resource transformers, pagination, a scheduled command that sends email reminders to attendees for events starting in the next 24 hours, and a clean, extensible codebase.
 
 ---
 
@@ -29,7 +28,7 @@ It supports flexible data loading, secure authentication, authorization, schedul
 ---
 
 ## Installation
-bash```
+bash:
 git clone https://github.com/mohamed-elabyad/events-management.git
 cd events-management
 composer install
@@ -113,3 +112,10 @@ app/Traits/HasLoadRelations.php → Utility for dynamic relation loading with ?i
 ## License:
 
 This project is open-source under the MIT License.
+
+---
+
+## Made with ❤️ by Mohamed Elabyad
+If you have any questions or want to get in touch, feel free to reach out:
+📧 Email: m.elabyad.work@gmail.com
+
